@@ -1,0 +1,8 @@
+package org.matricula.repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import org.matricula.models.Carrera;
+
+public interface ICarreraRepository extends JpaRepository<Carrera, String>{
+
+}
